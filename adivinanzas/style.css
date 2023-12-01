@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./src/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.contenedor {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 20px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.contenedor h2 {
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+div.contenedor h1 {
+    text-align: center;
+    font-size: 60px;
+    width: 1000px;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+}
+
+div.contenedor h1:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.8);
+    border: 8px solid black;
+    margin-bottom: 10px;
+}
+
+div.contenedor .respuesta input {
+    width: 350px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-bottom: 4px solid black;
+    margin-top: 40px;
+}
+
+div.contenedor button {
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+div.contenedor button:hover {
+    background: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 0.5);
+}
