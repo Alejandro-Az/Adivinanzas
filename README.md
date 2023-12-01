@@ -11,3 +11,7 @@ El juego incluye una variedad de adivinanzas con diferentes niveles de dificulta
 Selección Aleatoria: Las adivinanzas se eligen de manera aleatoria para ofrecer una experiencia única en cada partida.
 
 Contador de Adivinanzas Resueltas: Un contador realiza un seguimiento del número de adivinanzas resueltas con éxito.
+
+### Captura de el juego
+
+![mainscreen](https://github.com/Alejandro-Az/Adivinanzas/assets/105530752/e352d2b1-0bff-4e90-a33a-114dfc9ac71b)
